@@ -4,7 +4,7 @@ function App() {
   const [subscription, setSubscription] = useState(true);
   // const [price, setPrice] = useState();
   const handleSubscriptionToggle = () => {
-    setSubscription(!subscription);
+    setSubscription((is) => !is);
   };
 
   return (
