@@ -42,7 +42,7 @@ function App() {
                 <li className="plan-list-item">2 Users Allowed</li>
                 <li className="plan-list-item">Send up to 3 GB</li>
               </ul>
-              <button className="learn-more-purple">Learn More</button>
+              <button className="learn-more-purple">Learn&nbsp;More</button>
             </div>
             <div className="price-card bg-purple-gradient professional">
               <h2 className="plan-title">Professional</h2>
@@ -58,7 +58,7 @@ function App() {
                 <li className="plan-list-item">5 Users Allowed</li>
                 <li className="plan-list-item">Send up to 10 GB</li>
               </ul>
-              <button className="learn-more-white">Learn More</button>
+              <button className="learn-more-white">Learn&nbsp;More</button>
             </div>
             <div className="price-card master">
               <h2 className="plan-title">Master</h2>
@@ -74,7 +74,7 @@ function App() {
                 <li className="plan-list-item">10 Users Allowed</li>
                 <li className="plan-list-item">Send up to 20 GB</li>
               </ul>
-              <button className="learn-more-purple">Learn More</button>
+              <button className="learn-more-purple">Learn&nbsp;More</button>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Frontend Mentor
+            &nbsp;Frontend Mentor
           </a>
           .
         </p>
@@ -99,7 +99,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Amy Spencer
+            &nbsp;Amy Spencer
           </a>
           .
         </p>
