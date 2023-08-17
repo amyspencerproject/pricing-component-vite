@@ -1,7 +1,11 @@
 import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [subscription, setSubscription] = useState(true);
+  // const [price, setPrice] = useState();
+  const handleSubscriptionToggle = () => {
+    setSubscription(!subscription);
+  };
 
   return (
     <>
@@ -16,6 +20,7 @@ function App() {
                 id="toggle"
                 name="toggle"
                 type="checkbox"
+                onClick={handleSubscriptionToggle}
               />
               <span className="toggle-display"></span>
               <span className="monthly">Monthly</span>
@@ -26,8 +31,11 @@ function App() {
             <div className="price-card basic">
               <h2 className="plan-title">Basic</h2>
               <p className="price">
-                <span className="monthly-price hide">&#36;19.99</span>
-                <span className="annual-price">&#36;199.99</span>
+                {!subscription ? (
+                  <span className="monthly-price">&#36;19.99</span>
+                ) : (
+                  <span className="annual-price">&#36;199.99</span>
+                )}
               </p>
               <ul className="plan-list">
                 <li className="plan-list-item">500 GB Storage</li>
@@ -39,8 +47,11 @@ function App() {
             <div className="price-card bg-purple-gradient professional">
               <h2 className="plan-title">Professional</h2>
               <p className="price">
-                <span className="monthly-price hide">&#36;24.99</span>
-                <span className="annual-price">&#36;249.99</span>
+                {!subscription ? (
+                  <span className="monthly-price">&#36;24.99</span>
+                ) : (
+                  <span className="annual-price">&#36;249.99</span>
+                )}
               </p>
               <ul className="plan-list">
                 <li className="plan-list-item">1 TB Storage</li>
@@ -52,8 +63,11 @@ function App() {
             <div className="price-card master">
               <h2 className="plan-title">Master</h2>
               <p className="price">
-                <span className="monthly-price hide">&#36;39.99</span>
-                <span className="annual-price">&#36;399.99</span>
+                {!subscription ? (
+                  <span className="monthly-price">&#36;39.99</span>
+                ) : (
+                  <span className="annual-price">&#36;399.99</span>
+                )}
               </p>
               <ul className="plan-list">
                 <li className="plan-list-item">2 TB Storage</li>
