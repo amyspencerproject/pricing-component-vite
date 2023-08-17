@@ -32,7 +32,7 @@ function App() {
               <h2 className="plan-title">Basic</h2>
               <p className="price">
                 {!subscription ? (
-                  <span className="monthly-price">&#36;19.99</span>
+                  <span className="monthly-price">&#36;19.99&nbsp;&nbsp;</span>
                 ) : (
                   <span className="annual-price">&#36;199.99</span>
                 )}
@@ -48,7 +48,7 @@ function App() {
               <h2 className="plan-title">Professional</h2>
               <p className="price">
                 {!subscription ? (
-                  <span className="monthly-price">&#36;24.99</span>
+                  <span className="monthly-price">&#36;24.99&nbsp;&nbsp;</span>
                 ) : (
                   <span className="annual-price">&#36;249.99</span>
                 )}
@@ -64,7 +64,7 @@ function App() {
               <h2 className="plan-title">Master</h2>
               <p className="price">
                 {!subscription ? (
-                  <span className="monthly-price">&#36;39.99</span>
+                  <span className="monthly-price">&#36;39.99&nbsp;&nbsp;</span>
                 ) : (
                   <span className="annual-price">&#36;399.99</span>
                 )}
