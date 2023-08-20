@@ -22,17 +22,15 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- Control the toggle with both their mouse/trackpad and their keyboard
-- **Bonus**: Complete the challenge with just HTML and CSS
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop-view-annually.png) ![](./screenshots/mobile-view-monthly.png)
 
 ### Links
 
 - Github Repo URL: [Pricing Component Vite Repo](https://github.com/amyspencerproject/pricing-component)
-- Live Site URL: [Pricing Component Vite Page](https://amyspencerproject.github.io/pricing-component/)
+- Live Site URL: [Pricing Component Vite Page](https://pricing-component-vite-q1sr4xn4k-amyspencerproject.vercel.app/)
 
 ## My process
 
@@ -50,9 +48,11 @@ Users should be able to:
 - Using Vite! Trying to give up using Create React App and Vite so far has a shallow learning curve 🥳.
 - Could not use the HTML entity `&dollar;` with Vite. I had to switch to `&#36;` which is ASCII. Other HTML entities worked just fine like `&amp`; and `&times;`. I could not find a clear answer as to why.
 - Used React Hooks in this component
-- Not sure how to deploy this with Vite yet. Going to just try pushing code to Github and then deploying to Vercel.
+- Deployed by pushing code to Github and then deploying in Vercel. There were a lot of options with Vite. I like to keep my Githup repos in sync with any live url links I have out there in the universe. Vercel knew that I had used Vite to build this component making deployment super easy.
 
 ### Continued development
+
+- Control the toggle with both their mouse/trackpad and their keyboard
 
 ### Useful resources
 
