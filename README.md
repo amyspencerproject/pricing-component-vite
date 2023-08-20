@@ -49,6 +49,8 @@ Users should be able to:
 - Made a checkbox toggle with a horizontal slider with CSS! Tried to make this as accessbile as possible, even used `will-change: transform;` on the toggle handle.
 - Using Vite! Trying to give up using Create React App and Vite so far has a shallow learning curve 🥳.
 - Could not use the HTML entity `&dollar;` with Vite. I had to switch to `&#36;` which is ASCII. Other HTML entities worked just fine like `&amp`; and `&times;`. I could not find a clear answer as to why.
+- Used React Hooks in this component
+- Not sure how to deploy this with Vite yet. Going to just try pushing code to Github and then deploying to Vercel.
 
 ### Continued development
 
